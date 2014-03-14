@@ -1,0 +1,85 @@
+/* barebones style.css (copied from one of my old contact pages, http://maximz.com/contact) */
+
+body {
+  font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+.address {
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+p {
+  line-height: 1.5em; /* other possibilities: 1.25, 1.75; */
+  color: #444; /* gray */
+  margin-bottom: 1.5em;
+}
+
+p.indented {
+  margin-bottom: 0;
+}
+
+p.indented + p.indented {
+  text-indent: 2em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+a {
+  border-bottom: 1px solid #FF3356;
+  text-decoration: none;
+  color: #FF3356;
+}
+
+a:hover {
+  border-color: #FF002C;
+  color: #FF002C;
+  background: #FFEBEE;
+}
+
+#main {
+  width: 480px; /* 65 characters. 40 chars = 290px; 90 chars = 600px. */
+  position: relative;
+  padding: 0 2em;
+  margin-bottom: 1em;
+}
+
+.push-left {
+	margin-left: 10%;
+	float:left;
+}
+
+.push-right {
+	margin-right: 10%; 
+	float: right;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 1em;
+  line-height: 1.1em; /* Smaller than body text */
+  margin-bottom: 1em;
+  color: #222;
+}
+
+h2, h3, h4, h5 {
+  color: #222;
+  line-height: 1.1;
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+#main .article h2 {
+  margin-bottom: 0.25em;
+}
+
+abbr
+{
+  font-variant: small-caps;
+  text-transform: lowercase;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
