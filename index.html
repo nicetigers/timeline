@@ -56,6 +56,7 @@
 		If time: manually create some fake data and test the R of CRUD with our new UI
 	Query people to see if they would prefer one dashboard or one page per course
     </pre>
+    
     <h3>Week Two</h3>
     <p>Accomplished this week: we accomplished the big tasks -- creating our DB schema and a prototype design -- and started implementing the DB schema in Django models</p>
     <p>Tasks for next week:</p>
@@ -65,6 +66,64 @@
 	Create add event page
 	Write script to populate user dashboard with upcoming events -- without integrating into our UI yet
 	If we have time, integrate that user dashboard output into our prototype UI
+    </pre>
+    
+    <h3>Week Three</h3>
+    <p>Accomplished this week:</p>
+    <pre>
+    	Created user authentication system
+	Fixed recurring events part of DB
+	Finalized Django, Postgres, and Heroku setup
+	Wrote script to fetch events for user dashboard
+	Integrated fetched events with our prototype UI
+	Created user profile system to hold user metadata
+	Create profiles automatically and force users to choose >1 course before using site
+	Created form to choose courses
+	UI improvements
+    </pre>
+    <p>Tasks for next week:</p>
+    <pre>
+    	Finish our queries for adding and editing events (need to test)
+	Forms for adding and editing events
+	"Hide" button on events -- i.e. toggle event visibility per user
+	Improve profile page to enable name editing and choosing custom sections (besides All Students section)
+	If we have time: Implement prompting with similar events when you're adding a new event
+	If we have time: Allow users to approve recently added or changed events
+    </pre>
+    
+    <h3>Week Four</h3>
+    <p>Accomplished this week:</p>
+    <pre>
+    	Logout button
+	Signing up for custom sections
+	OIT scraper (holding off on event creation bit because recurring events is pending)
+	Hiding events
+	Add events forms are finished
+	Get everyone set up with database migrations
+	Modifying events works
+	Create save button
+	Let people edit their names in profile page
+	Started autocomplete for courses page
+	Intelligent revision selection -- if a user has edited since the last approved revision, show them their own edits
+	Polling for server-side changes every 10 seconds
+	Persisting client-side changes and pushing once every 10 seconds
+	Saving dashboard state of open events
+	UI tweaks -- better forms and popups, validation for max length of fields, sidebar, various bugfixes
+	Outlined most of recurring events and find similar events business logic
+	Find similar events UI
+    </pre>
+    <p>Tasks for next week:</p>
+    <pre>
+    	Finish recurring events business logic -- almost done
+	Resolve time handling issues
+	UI fixes (all in github issues right now)
+	AJAX plumbing between "find similar events" backend and frontend
+	Once recurring events are finished on backend, update scraper to create events, not just courses and sections
+	Color coding
+	Finish autocomplete for courses page
+	UI niceties -- have help text if there's nothing on your dashboard, create front page before logging in
+	Revision approval by users
+	Reach out to a prof to beta test with their class
     </pre>
     
   </div>
