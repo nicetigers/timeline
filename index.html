@@ -88,113 +88,113 @@ If we have time, integrate that user dashboard output into our prototype UI
     <h3>Week Three</h3>
     <p>Accomplished this week:</p>
     <pre>
-    	Created user authentication system
-	Fixed recurring events part of DB
-	Finalized Django, Postgres, and Heroku setup
-	Wrote script to fetch events for user dashboard
-	Integrated fetched events with our prototype UI
-	Created user profile system to hold user metadata
-	Create profiles automatically and force users to choose >1 course before using site
-	Created form to choose courses
-	UI improvements
+Created user authentication system
+Fixed recurring events part of DB
+Finalized Django, Postgres, and Heroku setup
+Wrote script to fetch events for user dashboard
+Integrated fetched events with our prototype UI
+Created user profile system to hold user metadata
+Create profiles automatically and force users to choose >1 course before using site
+Created form to choose courses
+UI improvements
     </pre>
     <p>Tasks for next week:</p>
     <pre>
-    	Finish our queries for adding and editing events (need to test)
-	Forms for adding and editing events
-	"Hide" button on events -- i.e. toggle event visibility per user
-	Improve profile page to enable name editing and choosing custom sections (besides All Students section)
-	If we have time: Implement prompting with similar events when you're adding a new event
-	If we have time: Allow users to approve recently added or changed events
+Finish our queries for adding and editing events (need to test)
+Forms for adding and editing events
+"Hide" button on events -- i.e. toggle event visibility per user
+Improve profile page to enable name editing and choosing custom sections (besides All Students section)
+If we have time: Implement prompting with similar events when you're adding a new event
+If we have time: Allow users to approve recently added or changed events
     </pre>
     
     <h3>Week Four</h3>
     <p>Accomplished this week:</p>
     <pre>
-    	Logout button
-	Signing up for custom sections
-	OIT scraper (holding off on event creation bit because recurring events is pending)
-	Hiding events
-	Add events forms are finished
-	Get everyone set up with database migrations
-	Modifying events works
-	Create save button
-	Let people edit their names in profile page
-	Started autocomplete for courses page
-	Intelligent revision selection -- if a user has edited since the last approved revision, show them their own edits
-	Polling for server-side changes every 10 seconds
-	Persisting client-side changes and pushing once every 10 seconds
-	Saving dashboard state of open events
-	UI tweaks -- better forms and popups, validation for max length of fields, sidebar, various bugfixes
-	Outlined most of recurring events and find similar events business logic
-	Find similar events UI
+Logout button
+Signing up for custom sections
+OIT scraper (holding off on event creation bit because recurring events is pending)
+Hiding events
+Add events forms are finished
+Get everyone set up with database migrations
+Modifying events works
+Create save button
+Let people edit their names in profile page
+Started autocomplete for courses page
+Intelligent revision selection -- if a user has edited since the last approved revision, show them their own edits
+Polling for server-side changes every 10 seconds
+Persisting client-side changes and pushing once every 10 seconds
+Saving dashboard state of open events
+UI tweaks -- better forms and popups, validation for max length of fields, sidebar, various bugfixes
+Outlined most of recurring events and find similar events business logic
+Find similar events UI
     </pre>
     <p>Tasks for next week:</p>
     <pre>
-    	Finish recurring events business logic -- almost done
-	Resolve time handling issues
-	UI fixes (all in github issues right now)
-	AJAX plumbing between "find similar events" backend and frontend
-	Once recurring events are finished on backend, update scraper to create events, not just courses and sections
-	Color coding
-	Finish autocomplete for courses page
-	UI niceties -- have help text if there's nothing on your dashboard, create front page before logging in
-	Revision approval by users
-	Reach out to a prof to beta test with their class
+Finish recurring events business logic -- almost done
+Resolve time handling issues
+UI fixes (all in github issues right now)
+AJAX plumbing between "find similar events" backend and frontend
+Once recurring events are finished on backend, update scraper to create events, not just courses and sections
+Color coding
+Finish autocomplete for courses page
+UI niceties -- have help text if there's nothing on your dashboard, create front page before logging in
+Revision approval by users
+Reach out to a prof to beta test with their class
     </pre>
     
     <h3>Week Five</h3>
     <p>Accomplished this week:</p>
     <pre>
-    	Rewrote current event creation system, and wrote in recurring events logic -- now we can create all kinds of events
-	Intelligent autocomplete for classes
-	New profile page that uses autocomplete and has calendar view (like ICE)
-	Put choose-sections functionality into new profile page
-	Save prompt is brighter (yellow highlighting)
-	All sorts of UI bugfixes for smooth experience
-	Data scraper now does more than classes: pulls in sections and events from OIT data, creates recurring event series under Community User, and watches out for stuff that has already been scraped
-	Started researching Chrome Extension options
-	Started working on Color Coding of courses
-	Similar events UI
-	Similar events backend fixes
-	iOS work started (may switch to in-browser stylesheet for now)
+Rewrote current event creation system, and wrote in recurring events logic -- now we can create all kinds of events
+Intelligent autocomplete for classes
+New profile page that uses autocomplete and has calendar view (like ICE)
+Put choose-sections functionality into new profile page
+Save prompt is brighter (yellow highlighting)
+All sorts of UI bugfixes for smooth experience
+Data scraper now does more than classes: pulls in sections and events from OIT data, creates recurring event series under Community User, and watches out for stuff that has already been scraped
+Started researching Chrome Extension options
+Started working on Color Coding of courses
+Similar events UI
+Similar events backend fixes
+iOS work started (may switch to in-browser stylesheet for now)
     </pre>
     <p>Tasks for next week:</p>
     <pre>
-    	Identify confusing actions, like choosing similar events, and add help text
-	Fix performance issues -- optimize queries and potentially don't load all events 
-	System for confirming unapproved revisions
-	Minor UI enhancements: loading indicators everywhere, recurring events UI, better edit form icons, "not synced" text, vertical align for multiple events' snap to sidebar, prompt if event updated since started editing (behind-the-scenes is ready, just need prompt text), change what info is shown in agenda (separate event titles and course names), rearrange similar events picker, warn when closing tab with unsaved changes
-	Chrome Extension (embedded iframe with loading indicator), Mobile CSS that only shows agenda
+Identify confusing actions, like choosing similar events, and add help text
+Fix performance issues -- optimize queries and potentially don't load all events 
+System for confirming unapproved revisions
+Minor UI enhancements: loading indicators everywhere, recurring events UI, better edit form icons, "not synced" text, vertical align for multiple events' snap to sidebar, prompt if event updated since started editing (behind-the-scenes is ready, just need prompt text), change what info is shown in agenda (separate event titles and course names), rearrange similar events picker, warn when closing tab with unsaved changes
+Chrome Extension (embedded iframe with loading indicator), Mobile CSS that only shows agenda
     </pre>
     
     <h3>Week Six</h3>
     <p>Accomplished this week:</p>
     <pre>
-	Identify confusing actions, like choosing similar events, and add help text
-	Fix performance issues -- optimize queries and potentially don't load all events 
-	System for confirming unapproved revisions -- backend is done, UI is almost there
-	Minor UI enhancements:
-		loading indicators everywhere
-		smarter polling intervals
-		recurring events UI
-		"not synced" text
-		change what info is shown in agenda (separate event titles and course names)
-		updates to similar events picker
-		warn when closing tab with unsaved changes
-		viewing hidden events
-		agenda and calendar customizations
-	Chrome Extension done
-	Mobile version ready
-	Color coding
-	New name -- Recal (like Rethinking Calendar; we help with event recall). recal.today or a similar domain?
+Identify confusing actions, like choosing similar events, and add help text
+Fix performance issues -- optimize queries and potentially don't load all events 
+System for confirming unapproved revisions -- backend is done, UI is almost there
+Minor UI enhancements:
+	loading indicators everywhere
+	smarter polling intervals
+	recurring events UI
+	"not synced" text
+	change what info is shown in agenda (separate event titles and course names)
+	updates to similar events picker
+	warn when closing tab with unsaved changes
+	viewing hidden events
+	agenda and calendar customizations
+Chrome Extension done
+Mobile version ready
+Color coding
+New name -- Recal (like Rethinking Calendar; we help with event recall). recal.today or a similar domain?
     </pre>
     <p>Tasks for next week:</p>
     <pre>
-	Test with real users, and incorporate their feedback (especially in form of UI help text)
-	UI: Landing page, undo button, better date/time pickers
-	More code optimization -- code review
-	Be able to start planning next semester's classes?
+Test with real users, and incorporate their feedback (especially in form of UI help text)
+UI: Landing page, undo button, better date/time pickers
+More code optimization -- code review
+Be able to start planning next semester's classes?
     </pre>
     
   </div>
